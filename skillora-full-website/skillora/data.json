@@ -1,0 +1,1197 @@
+{
+ "secret": "7be0a853eafa8de8e4d1d4fe6aed324229a66d31e4a66214",
+ "n": 11,
+ "enr": [
+  {
+   "uid": 10,
+   "cid": 3,
+   "done": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "score": 90,
+   "passed": true,
+   "tries": 4,
+   "cert": "SK-CBA08734",
+   "date": "2026-11-17"
+  },
+  {
+   "uid": 10,
+   "cid": 7,
+   "done": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "score": 100,
+   "passed": true,
+   "tries": 12,
+   "cert": "SK-FB310C9D",
+   "date": "2026-11-17"
+  }
+ ],
+ "users": [
+  {
+   "id": 1,
+   "name": "Admin",
+   "email": "admin@skillora.com",
+   "pass": "7ef6f887acfc0d2b:539a23192618f18133b5b801b66af625d15fe1b46b30d1b5068c9d06469f0cfc",
+   "role": "admin",
+   "at": 1794921966310
+  },
+  {
+   "id": 10,
+   "name": "Suresh G",
+   "email": "221cs020@kongunaducollege.ac.in",
+   "pass": "06bdc0285a11f31f:80897a53d810f76c7f581b0610c73fd41b11261fb193f4c912a4fcdc40743bed",
+   "role": "student",
+   "at": 1794922155447
+  }
+ ],
+ "courses": [
+  {
+   "id": 1,
+   "title": "HTML & CSS Foundations",
+   "cat": "Development",
+   "level": "Beginner",
+   "desc": "Create semantic, accessible and responsive websites from the first HTML document to polished layouts.",
+   "pass": 70,
+   "lessons": [
+    {
+     "t": "How the web works and HTML document structure",
+     "body": "A browser requests a resource from a server, receives HTML, CSS, JavaScript and media, then builds and displays the page. HTML provides meaning and structure rather than visual styling. A standard document uses a doctype declaration, an html root, a head for metadata and a body for visible content.\nExample: place the page title in the head and the main heading inside the body. Use one clear h1 for the page's primary topic.",
+     "video": ""
+    },
+    {
+     "t": "Semantic HTML and text content",
+     "body": "Semantic elements describe the purpose of content. Use header, nav, main, section, article, aside and footer to make page regions understandable. Headings should follow a logical hierarchy, while paragraphs, lists, blockquotes and emphasis communicate text structure.\nAvoid choosing elements only because of their default appearance. Semantic markup improves maintainability, accessibility and the ability of assistive technology to navigate a page.",
+     "video": ""
+    },
+    {
+     "t": "Links, images, tables and forms",
+     "body": "Use anchors for navigation and buttons for actions. Images need useful alternative text when they convey information; decorative images can use empty alt text. Tables are for tabular data and should have header cells. Forms collect user input through labels, inputs, selects, textareas and submit buttons.\nAssociate each label with its control, choose appropriate input types and provide clear validation messages.",
+     "video": ""
+    },
+    {
+     "t": "CSS selectors, cascade and box model",
+     "body": "CSS rules contain a selector and declarations. Selectors target elements by type, class, id, attributes or relationships. The cascade resolves competing rules using origin, importance, specificity and source order. Every element is laid out using the box model: content, padding, border and margin.\nUse box-sizing: border-box for predictable sizing. Prefer reusable classes over repeated inline styles.",
+     "video": ""
+    },
+    {
+     "t": "Flexbox, Grid and responsive design",
+     "body": "Flexbox is useful for one-dimensional alignment in a row or column. Grid is useful for two-dimensional layouts with rows and columns. Responsive design adapts to available space using flexible units, max-width, wrapping and media queries.\nStart with a small-screen layout, then add breakpoints only when the content needs them. Test navigation, forms and cards at narrow and wide viewport widths.",
+     "video": ""
+    },
+    {
+     "t": "Accessibility, debugging and publishing",
+     "body": "Accessible pages provide keyboard operation, visible focus, sufficient contrast, descriptive link text and meaningful labels. Validate HTML, inspect browser developer tools and check network and console errors. Optimize image dimensions and avoid unnecessary assets before publishing.\nA final review should include keyboard-only navigation, zoom, mobile layout, broken links and form behavior.",
+     "video": ""
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which element represents the primary content of a page?",
+     "o": [
+      "<main>",
+      "<aside>",
+      "<footer>",
+      "<head>"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which attribute supplies alternative text for an image?",
+     "o": [
+      "title",
+      "alt",
+      "src",
+      "href"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Which element is intended for site navigation links?",
+     "o": [
+      "<nav>",
+      "<span>",
+      "<strong>",
+      "<time>"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which CSS property controls space inside an element's border?",
+     "o": [
+      "margin",
+      "outline",
+      "padding",
+      "gap"
+     ],
+     "a": 2
+    },
+    {
+     "q": "Which layout system is designed for two-dimensional rows and columns?",
+     "o": [
+      "Float",
+      "CSS Grid",
+      "Inline formatting",
+      "Position absolute"
+     ],
+     "a": 1
+    },
+    {
+     "q": "What does a media query help a stylesheet do?",
+     "o": [
+      "Store user data",
+      "Adapt styles to device or viewport conditions",
+      "Create HTML elements",
+      "Send HTTP requests"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Which control should normally trigger an action rather than navigate to a URL?",
+     "o": [
+      "Anchor",
+      "Button",
+      "Heading",
+      "Image"
+     ],
+     "a": 1
+    },
+    {
+     "q": "What is the purpose of a form label?",
+     "o": [
+      "Describe an associated input",
+      "Decorate the page",
+      "Submit data automatically",
+      "Load a stylesheet"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which practice improves keyboard accessibility?",
+     "o": [
+      "Remove focus outlines",
+      "Use only hover interactions",
+      "Provide visible focus styles",
+      "Make every control a div"
+     ],
+     "a": 2
+    },
+    {
+     "q": "What should be checked before publishing a website?",
+     "o": [
+      "Only the logo colour",
+      "Keyboard use, mobile layout and broken links",
+      "Only the desktop screenshot",
+      "Only the page title"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "JavaScript Basics",
+   "cat": "Development",
+   "level": "Beginner",
+   "desc": "Understand modern JavaScript and use it to build interactive browser experiences.",
+   "pass": 70,
+   "lessons": [
+    {
+     "t": "JavaScript runtime and script setup",
+     "body": "JavaScript runs in browsers and other runtimes. In a browser it can respond to events, update the DOM and communicate with APIs. Load scripts with defer when they depend on parsed HTML, and use modules to organize larger applications.\nOpen the browser console to inspect output and errors. Keep presentation in CSS, structure in HTML and behavior in JavaScript where practical.",
+     "video": ""
+    },
+    {
+     "t": "Variables, data types and operators",
+     "body": "Use const when a binding should not be reassigned and let when reassignment is required. Common values include strings, numbers, booleans, null, undefined, arrays and objects. Operators perform arithmetic, comparisons, logical tests and assignments.\nUse strict equality (===) to avoid unexpected type coercion. Convert user input deliberately because form values are commonly strings.",
+     "video": ""
+    },
+    {
+     "t": "Conditions, loops and arrays",
+     "body": "if, else if and else select a path based on a condition. for, while and for...of repeat work. Arrays store ordered collections and provide methods such as map, filter, find, includes and reduce.\nChoose the method that expresses the intention clearly. Avoid changing an array while iterating over it unless the behavior is deliberate.",
+     "video": ""
+    },
+    {
+     "t": "Functions, scope and error handling",
+     "body": "Functions package reusable behavior. Parameters receive input and return sends a result to the caller. Arrow functions provide concise syntax, while closures allow a function to retain access to its surrounding scope.\nUse try/catch around operations that can fail, and show helpful messages instead of silently swallowing errors. Keep functions focused and name them by the action they perform.",
+     "video": ""
+    },
+    {
+     "t": "Objects, DOM and browser events",
+     "body": "Objects group related properties and methods. The Document Object Model represents the page as nodes that JavaScript can query and update. Use querySelector, createElement, textContent and classList for common tasks.\nRegister event listeners for clicks, form submissions and keyboard actions. Prefer textContent for user-provided text to avoid interpreting it as HTML.",
+     "video": ""
+    },
+    {
+     "t": "Asynchronous JavaScript and APIs",
+     "body": "Promises represent work that completes later. async and await make promise-based code easier to read. fetch sends HTTP requests; check response.ok, parse the response and handle network errors.\nShow loading, success and error states in the interface. Do not assume a request succeeded merely because fetch returned a response.",
+     "video": ""
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which keyword declares a binding that cannot be reassigned?",
+     "o": [
+      "var",
+      "const",
+      "let",
+      "static"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Which operator checks strict equality?",
+     "o": [
+      "=",
+      "==",
+      "===",
+      "!="
+     ],
+     "a": 2
+    },
+    {
+     "q": "Which array method creates a new array by transforming each item?",
+     "o": [
+      "map",
+      "push",
+      "pop",
+      "splice"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What does a function's return statement do?",
+     "o": [
+      "Repeats a loop",
+      "Sends a result back to the caller",
+      "Creates a CSS rule",
+      "Stops the browser"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Which API is commonly used to select the first matching DOM element?",
+     "o": [
+      "querySelector",
+      "createServer",
+      "JSON.parse",
+      "setTimeout"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which property is safer for inserting plain user text into an element?",
+     "o": [
+      "innerHTML",
+      "outerHTML",
+      "textContent",
+      "styleText"
+     ],
+     "a": 2
+    },
+    {
+     "q": "What does addEventListener register?",
+     "o": [
+      "A database table",
+      "A response to an event",
+      "A CSS selector",
+      "A module export"
+     ],
+     "a": 1
+    },
+    {
+     "q": "What does await do inside an async function?",
+     "o": [
+      "Waits for a promise to settle before continuing",
+      "Converts a string to a number",
+      "Creates a new array",
+      "Deletes an event"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which fetch check helps detect an HTTP error response?",
+     "o": [
+      "response.ok",
+      "window.name",
+      "document.title",
+      "array.length"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Why should asynchronous code handle errors?",
+     "o": [
+      "Network and server operations can fail",
+      "Promises always succeed",
+      "Errors cannot occur in browsers",
+      "It makes code synchronous"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "UI/UX Design Essentials",
+   "cat": "Design",
+   "level": "Beginner",
+   "desc": "Plan, prototype and evaluate useful digital experiences through user-centered design.",
+   "pass": 70,
+   "lessons": [
+    {
+     "t": "UI, UX and user-centered design",
+     "body": "User experience covers the complete experience of using a product, including usefulness, usability and satisfaction. User interface design focuses on the controls and visual surfaces people interact with. User-centered design begins with user needs rather than personal assumptions.\nDefine the audience, their goals, context and pain points before choosing a visual style.",
+     "video": ""
+    },
+    {
+     "t": "Research, personas and user journeys",
+     "body": "Research methods include interviews, observation, surveys and analysis of existing behavior. A persona summarizes a meaningful user group; it should be grounded in evidence rather than stereotypes. A journey map shows stages, actions, questions and friction points.\nTurn findings into clear problem statements and prioritize issues by user impact and frequency.",
+     "video": ""
+    },
+    {
+     "t": "Information architecture and wireframes",
+     "body": "Information architecture organizes content so people can find it. Navigation labels should be familiar and consistent. Wireframes show hierarchy, content placement and key interactions without requiring finished visual styling.\nCreate low-fidelity sketches first, then refine the information flow. Test whether users can complete important tasks without being coached.",
+     "video": ""
+    },
+    {
+     "t": "Visual hierarchy, typography and colour",
+     "body": "Visual hierarchy guides attention through size, weight, spacing, alignment and contrast. Typography should be readable at common screen sizes and use a limited, consistent type scale. Colour communicates meaning but should not be the only way to convey status.\nCheck text contrast and maintain consistent spacing and component styles across screens.",
+     "video": ""
+    },
+    {
+     "t": "Interaction design and prototyping",
+     "body": "Interaction design defines how controls respond to user actions. Provide feedback for loading, success, errors, disabled states and destructive actions. Prototypes can range from clickable wireframes to high-fidelity simulations.\nPrototype the highest-risk task flows first. Make controls predictable and ensure users can recover from mistakes.",
+     "video": ""
+    },
+    {
+     "t": "Usability testing and design handoff",
+     "body": "Usability testing asks representative users to complete realistic tasks while the team observes where they struggle. Use neutral prompts, record task completion and identify recurring friction. Iterate based on evidence.\nA handoff should include component states, spacing, typography, responsive behavior, assets and accessibility notes.",
+     "video": ""
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the main focus of user-centered design?",
+     "o": [
+      "The designer's favourite colours",
+      "Users' goals and needs",
+      "The number of animations",
+      "The newest framework"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Which research method involves observing users performing tasks?",
+     "o": [
+      "Usability observation",
+      "Logo tracing",
+      "Code minification",
+      "Colour sampling"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What does a persona summarize?",
+     "o": [
+      "A fictional interface animation",
+      "A research-based user group profile",
+      "A database schema",
+      "A brand colour code"
+     ],
+     "a": 1
+    },
+    {
+     "q": "What is a wireframe primarily used to communicate?",
+     "o": [
+      "Content structure and layout",
+      "Final photo retouching",
+      "Server configuration",
+      "Marketing budget"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which principle helps users notice the most important content first?",
+     "o": [
+      "Visual hierarchy",
+      "Random alignment",
+      "Low contrast",
+      "Dense decoration"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Why should colour not be the only way to show an error?",
+     "o": [
+      "Some users may not distinguish the colour",
+      "Colour cannot be displayed online",
+      "It increases download speed",
+      "It prevents keyboard use"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What is a prototype useful for?",
+     "o": [
+      "Testing an interaction before full implementation",
+      "Replacing all user research",
+      "Guaranteeing sales",
+      "Storing passwords"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which is a good usability test prompt?",
+     "o": [
+      "Click the blue button now",
+      "Show me how you would find the course",
+      "The answer is in the menu",
+      "Do not make mistakes"
+     ],
+     "a": 1
+    },
+    {
+     "q": "What should usability testing prioritize?",
+     "o": [
+      "Observed user difficulties and task outcomes",
+      "The designer's assumptions",
+      "The number of screens only",
+      "Animation duration only"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What belongs in a useful design handoff?",
+     "o": [
+      "Component states and responsive behavior",
+      "Only a screenshot",
+      "Only the logo file",
+      "Unlabeled colours"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Full-Stack Web Development",
+   "cat": "Development",
+   "level": "Intermediate",
+   "desc": "Connect frontend interfaces, backend services, databases, authentication and deployment into a complete application.",
+   "pass": 70,
+   "lessons": [
+    {
+     "t": "Full-stack architecture and HTTP",
+     "body": "A full-stack application typically has a client, server/API and persistent data store. HTTP requests carry methods, paths, headers and optional bodies. GET retrieves data, POST creates or triggers processing, PUT/PATCH updates and DELETE removes resources.\nSeparate responsibilities so the browser handles presentation while the server validates business rules and protects data.",
+     "video": ""
+    },
+    {
+     "t": "Frontend components and state",
+     "body": "A component represents a reusable part of the interface. State stores values that can change, while props or parameters pass data into components. Keep UI state close to where it is used and derive values instead of duplicating them.\nDesign loading, empty, error and success states. Validate forms on the client for usability and again on the server for security.",
+     "video": ""
+    },
+    {
+     "t": "Backend APIs and validation",
+     "body": "An API defines how clients interact with server capabilities. Use clear resource-oriented routes, consistent status codes and predictable JSON responses. Validate required fields, types, lengths and allowed values before processing.\nReturn useful error messages without exposing stack traces, secrets or internal implementation details.",
+     "video": ""
+    },
+    {
+     "t": "Databases, relationships and CRUD",
+     "body": "Relational databases store information in tables connected by primary and foreign keys. Normalize repeated data where appropriate and define constraints to protect integrity. CRUD operations create, read, update and delete records.\nUse parameterized queries or a safe ORM, indexes for common lookup patterns and transactions when multiple changes must succeed together.",
+     "video": ""
+    },
+    {
+     "t": "Authentication, authorization and security",
+     "body": "Authentication establishes who a user is; authorization determines what that user may do. Store password hashes rather than plaintext passwords, use secure session or token handling and restrict administrative operations on the server.\nApply least privilege, validate input, protect secrets with environment variables and use HTTPS in production. Never rely only on hiding a button in the frontend.",
+     "video": ""
+    },
+    {
+     "t": "Testing, deployment and maintenance",
+     "body": "Unit tests check small functions, integration tests check connected modules and end-to-end tests exercise user journeys. Configure environment-specific settings and build reproducible deployment steps.\nMonitor logs and errors, back up important data and keep dependencies updated. A successful deployment is not complete until core flows are verified in production.",
+     "video": ""
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which HTTP method is commonly used to retrieve a resource?",
+     "o": [
+      "POST",
+      "GET",
+      "DELETE",
+      "PATCH"
+     ],
+     "a": 1
+    },
+    {
+     "q": "What is the role of a frontend component?",
+     "o": [
+      "Reusable part of an interface",
+      "Database backup",
+      "Network cable",
+      "Password hash"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Where should important business-rule validation occur?",
+     "o": [
+      "Only in browser CSS",
+      "On the server",
+      "Only in an image file",
+      "In the page title"
+     ],
+     "a": 1
+    },
+    {
+     "q": "What does a primary key identify?",
+     "o": [
+      "A unique row in a table",
+      "A CSS class",
+      "A browser tab",
+      "An API hostname"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What is authentication?",
+     "o": [
+      "Determining a user's identity",
+      "Choosing page colours",
+      "Compressing images",
+      "Sorting a table"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What is authorization?",
+     "o": [
+      "Deciding what an authenticated user may access",
+      "Creating a password",
+      "Loading HTML",
+      "Encrypting an image"
+     ],
+     "a": 0
+    },
+    {
+     "q": "How should passwords be stored?",
+     "o": [
+      "As readable plaintext",
+      "As secure password hashes",
+      "In a public JavaScript file",
+      "In a URL parameter"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Why use parameterized database queries?",
+     "o": [
+      "To reduce SQL injection risk",
+      "To change page layout",
+      "To make passwords visible",
+      "To disable indexes"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What does an integration test examine?",
+     "o": [
+      "How connected modules work together",
+      "Only a single CSS colour",
+      "The logo file name",
+      "The computer's wallpaper"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Where should production secrets be stored?",
+     "o": [
+      "In public source code",
+      "In environment or secret-management configuration",
+      "In HTML comments",
+      "In a GitHub README"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Data Science with Python",
+   "cat": "Data & AI",
+   "level": "Intermediate",
+   "desc": "Use Python to prepare, explore, analyze and communicate evidence from structured datasets.",
+   "pass": 70,
+   "lessons": [
+    {
+     "t": "Data science workflow and Python environment",
+     "body": "A data science project begins with a question and an understanding of the available data. A typical workflow includes acquisition, cleaning, exploration, analysis or modeling, evaluation and communication.\nUse a virtual environment to isolate dependencies and notebooks for exploratory work. Record assumptions and keep a reproducible copy of the data preparation steps.",
+     "video": ""
+    },
+    {
+     "t": "Python, NumPy and tabular data",
+     "body": "Python provides the language foundation, while NumPy supports efficient numerical arrays. Pandas provides Series and DataFrame structures for tabular data. Read data from CSV or other supported formats and inspect shape, columns and data types.\nUse head, info and describe to understand a dataset before making conclusions.",
+     "video": ""
+    },
+    {
+     "t": "Data cleaning and preparation",
+     "body": "Check for missing values, duplicates, inconsistent categories, invalid ranges and incorrect data types. Decide whether to remove, replace or preserve missing values based on the context and the analysis question.\nConvert dates and numeric fields carefully. Keep a record of transformations so the work can be repeated and audited.",
+     "video": ""
+    },
+    {
+     "t": "Exploratory data analysis and visualization",
+     "body": "Exploratory data analysis uses summaries and charts to understand distributions, relationships, outliers and possible data quality problems. Histograms show distributions, box plots summarize spread and scatter plots reveal relationships between two numeric variables.\nChoose chart types that match the question, label axes and avoid implying causation from correlation.",
+     "video": ""
+    },
+    {
+     "t": "Statistics and introductory machine learning",
+     "body": "Descriptive statistics summarize a sample; inferential methods help reason about a wider population under assumptions. Machine learning uses data to learn patterns for prediction or grouping. Split data into training and test sets before evaluating a model.\nChoose metrics that match the task. Accuracy alone can be misleading when classes are imbalanced.",
+     "video": ""
+    },
+    {
+     "t": "Communicating findings and responsible practice",
+     "body": "A strong report connects the original question, method, evidence, limitations and practical recommendation. Explain uncertainty and avoid claims that the data cannot support. Protect personal information and consider bias in collection and modeling.\nUse clear visuals and plain language so stakeholders can understand what the analysis does and does not show.",
+     "video": ""
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which Python library is commonly used for tabular data analysis?",
+     "o": [
+      "Pandas",
+      "Pygame",
+      "Turtle",
+      "Tkinter"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What does a DataFrame represent in Pandas?",
+     "o": [
+      "A two-dimensional labeled data structure",
+      "A web server",
+      "A neural network layer",
+      "A file compressor"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which step should usually happen before modeling?",
+     "o": [
+      "Inspect and clean the data",
+      "Delete the target definition",
+      "Publish predictions immediately",
+      "Ignore missing values"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What does df.info() help inspect?",
+     "o": [
+      "Column data types and non-null counts",
+      "Only chart colours",
+      "Model accuracy",
+      "Website routes"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which chart is useful for viewing a numeric distribution?",
+     "o": [
+      "Histogram",
+      "Flowchart",
+      "Network topology",
+      "Gantt chart"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What is an outlier?",
+     "o": [
+      "An observation unusually distant from others",
+      "A missing column name",
+      "A type of Python loop",
+      "A database key"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Why split data into training and test sets?",
+     "o": [
+      "To evaluate performance on held-out data",
+      "To increase the number of labels",
+      "To remove all features",
+      "To avoid data cleaning"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What does correlation indicate?",
+     "o": [
+      "A measured association between variables",
+      "Proof that one variable causes another",
+      "A missing value",
+      "A programming error"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Why can accuracy be misleading on imbalanced data?",
+     "o": [
+      "A majority-class model may score highly while missing the minority class",
+      "Accuracy is always negative",
+      "It cannot be calculated",
+      "It measures training time"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What should a responsible analysis report include?",
+     "o": [
+      "Limitations and uncertainty",
+      "Only the best-looking chart",
+      "Unsupported causal claims",
+      "Private personal records"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "Digital Marketing Mastery",
+   "cat": "Marketing",
+   "level": "Beginner",
+   "desc": "Plan measurable campaigns using audience research, content, search, social channels and analytics.",
+   "pass": 70,
+   "lessons": [
+    {
+     "t": "Digital marketing strategy and objectives",
+     "body": "Digital marketing uses online channels to reach and engage audiences. Begin with a business objective such as awareness, leads or sales, then define a measurable outcome. A strategy connects audience needs, positioning, message, channels and budget.\nUse SMART objectives: specific, measurable, achievable, relevant and time-bound. Avoid choosing channels before understanding the audience.",
+     "video": ""
+    },
+    {
+     "t": "Audience research and customer journey",
+     "body": "Research audience needs, questions, motivations and barriers using interviews, analytics and search behavior. Segment audiences by relevant needs or behaviors rather than assumptions. The customer journey may include awareness, consideration, conversion and retention.\nMatch content and calls to action to the stage a person is in. Keep messaging consistent while adapting the format to each channel.",
+     "video": ""
+    },
+    {
+     "t": "Content marketing and social media",
+     "body": "Content marketing creates useful material that attracts and helps an audience, such as articles, videos, guides and case studies. A content calendar plans topics, formats, owners and publishing dates. Social media requires platform-appropriate creative and genuine interaction.\nPrioritize usefulness and consistency over posting frequency alone. Include accessible captions and clear calls to action.",
+     "video": ""
+    },
+    {
+     "t": "SEO and search advertising",
+     "body": "Search engine optimization improves how useful pages can be discovered in organic search. Research search intent, write descriptive titles, organize headings, improve page speed and create helpful content. Paid search uses bids and ad relevance to show sponsored listings.\nDo not stuff keywords. Align landing pages with the promise made in the search result or advertisement.",
+     "video": ""
+    },
+    {
+     "t": "Email marketing and conversion optimization",
+     "body": "Email campaigns use permission-based lists, relevant segmentation and clear messages. Subject lines should set accurate expectations. Landing pages should explain the offer, reduce friction and provide a clear next step.\nMeasure delivery, clicks and conversions while respecting consent and unsubscribe requirements. Test one meaningful change at a time when possible.",
+     "video": ""
+    },
+    {
+     "t": "Analytics, KPIs and campaign improvement",
+     "body": "Analytics helps evaluate whether activity contributes to the objective. Common measures include reach, impressions, click-through rate, conversion rate and cost per acquisition. Define each metric and its measurement window before comparing campaigns.\nUse tagged campaign links and consistent reporting. Treat results as evidence for the next experiment, not as proof of causation without a suitable test.",
+     "video": ""
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What should guide the choice of campaign channels?",
+     "o": [
+      "Audience behavior and campaign objectives",
+      "The designer's favourite app",
+      "The number of fonts",
+      "Random selection"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What does a SMART objective include?",
+     "o": [
+      "Specific and measurable outcomes",
+      "Only broad wishes",
+      "No deadline",
+      "No measurement"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which stage usually comes before consideration in a customer journey?",
+     "o": [
+      "Awareness",
+      "Retention",
+      "Renewal",
+      "Advocacy"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What is content marketing intended to provide?",
+     "o": [
+      "Useful material for a defined audience",
+      "Only repeated sales slogans",
+      "Unrelated entertainment",
+      "Hidden fees"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What does SEO primarily aim to improve?",
+     "o": [
+      "Organic discoverability in search",
+      "Email attachment size",
+      "Printer speed",
+      "Database backups"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What is a landing page?",
+     "o": [
+      "A page focused on a specific campaign action",
+      "A server log",
+      "A social media password",
+      "A type of font"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which email practice is appropriate?",
+     "o": [
+      "Use permission-based lists and honor unsubscribe requests",
+      "Buy any email list",
+      "Hide the sender",
+      "Ignore consent"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What does conversion rate measure?",
+     "o": [
+      "The share of visitors completing a desired action",
+      "The number of page colours",
+      "The file size",
+      "The number of email drafts"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What is a KPI?",
+     "o": [
+      "A metric linked to an objective",
+      "A random design element",
+      "A programming language",
+      "A website image"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Why use tagged campaign links?",
+     "o": [
+      "To attribute traffic to a campaign source",
+      "To encrypt a webpage",
+      "To change a logo",
+      "To prevent page loading"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title": "Python Programming for Beginners",
+   "cat": "Development",
+   "level": "Beginner",
+   "desc": "Learn Python syntax, problem solving, data structures, functions and file handling through practical examples.",
+   "pass": 70,
+   "lessons": [
+    {
+     "t": "Installing Python and writing your first program",
+     "body": "Python is a general-purpose language known for readable syntax. Install a supported version, confirm it is available from the terminal and use an editor or interactive shell to run code. The print function displays output and comments explain intent.\nA Python script executes statements in order unless control flow changes that order. Save files with the .py extension and run them from the correct working directory.",
+     "video": ""
+    },
+    {
+     "t": "Variables, data types and input/output",
+     "body": "Variables are names that refer to values. Common built-in types include int, float, str and bool. input reads text from the user, so convert it when numeric calculations are needed. f-strings format values clearly.\nChoose meaningful names and validate input before using it. Understand the difference between assignment and comparison.",
+     "video": ""
+    },
+    {
+     "t": "Operators and decision making",
+     "body": "Arithmetic operators perform calculations, comparison operators produce Boolean results and logical operators combine conditions. if, elif and else select which block runs. Indentation defines Python code blocks.\nBreak complex conditions into smaller named checks. Test boundary values such as zero, negative numbers and empty strings.",
+     "video": ""
+    },
+    {
+     "t": "Loops and built-in collections",
+     "body": "for loops iterate over sequences and while loops repeat while a condition remains true. Lists are ordered and mutable, tuples are ordered and immutable, sets store unique values and dictionaries map keys to values.\nUse range for numeric sequences and choose a collection based on the operations the program needs.",
+     "video": ""
+    },
+    {
+     "t": "Functions, modules and exceptions",
+     "body": "Functions make code reusable and easier to test. Parameters accept input and return provides output. Modules organize related functions and can be imported into another script. Exceptions represent runtime problems that can be handled with try and except.\nKeep functions focused, avoid unnecessary global variables and catch specific exceptions when possible.",
+     "video": ""
+    },
+    {
+     "t": "Files, debugging and small projects",
+     "body": "Use with open(...) to read or write files safely; specify an encoding for text. Debug by reproducing a problem, reading the traceback and checking variable values near the failure. Test normal, boundary and invalid inputs.\nPractice by building a calculator, number guessing game, contact list or simple expense tracker. Divide each project into small functions.",
+     "video": ""
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which function displays output in Python?",
+     "o": [
+      "input()",
+      "print()",
+      "type()",
+      "open()"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Which data type stores whole numbers?",
+     "o": [
+      "int",
+      "str",
+      "bool",
+      "list"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What type of value does input() return by default?",
+     "o": [
+      "Integer",
+      "String",
+      "Boolean",
+      "Tuple"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Which keyword begins a conditional branch?",
+     "o": [
+      "if",
+      "loop",
+      "repeat",
+      "caseof"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which loop is commonly used to iterate over a list?",
+     "o": [
+      "for",
+      "switch",
+      "select",
+      "goto"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which collection stores key-value pairs?",
+     "o": [
+      "List",
+      "Tuple",
+      "Dictionary",
+      "Set"
+     ],
+     "a": 2
+    },
+    {
+     "q": "What is the purpose of return in a function?",
+     "o": [
+      "Send a value back to the caller",
+      "Print every variable",
+      "Import a module",
+      "Open a file"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which block is used to handle an exception?",
+     "o": [
+      "except",
+      "finallyonly",
+      "repeat",
+      "define"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Why use with open(...) when working with files?",
+     "o": [
+      "It manages closing the file automatically",
+      "It encrypts all content",
+      "It creates a database",
+      "It changes the file extension"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What does a traceback help a programmer find?",
+     "o": [
+      "Where an error occurred",
+      "The computer's screen size",
+      "The website's colour palette",
+      "The current Wi-Fi password"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title": "Graphic Design Fundamentals",
+   "cat": "Design",
+   "level": "Beginner",
+   "desc": "Build strong visual compositions with typography, colour, layout, imagery and production-ready exports.",
+   "pass": 70,
+   "lessons": [
+    {
+     "t": "Design principles and visual communication",
+     "body": "Graphic design communicates a message through visual elements. Core principles include contrast, alignment, repetition, proximity, balance and hierarchy. A design brief identifies the audience, purpose, message, format and constraints.\nStart with the communication goal. Every decorative choice should support clarity rather than compete with the message.",
+     "video": ""
+    },
+    {
+     "t": "Composition, grids and spacing",
+     "body": "Composition arranges elements within a defined space. Grids provide consistent alignment, while whitespace separates groups and improves scanning. Balance can be symmetrical or asymmetrical depending on the intended energy and emphasis.\nUse consistent margins and spacing rules. Check the design at its actual display size, not only while zoomed in.",
+     "video": ""
+    },
+    {
+     "t": "Typography and font pairing",
+     "body": "Typography affects tone, hierarchy and readability. Consider typeface category, weight, size, line height, line length and letter spacing. A clear hierarchy distinguishes titles, section headings, body text and captions.\nLimit the number of type families and use weights intentionally. Ensure body text remains readable on small screens and in print.",
+     "video": ""
+    },
+    {
+     "t": "Colour theory and accessibility",
+     "body": "Colour relationships can create harmony, contrast and emphasis. Hue, saturation and value describe different aspects of colour. Build a palette with primary, secondary and neutral roles, then test combinations for sufficient contrast.\nNever rely on colour alone to communicate meaning. Check how the design works for viewers with different colour-vision abilities.",
+     "video": ""
+    },
+    {
+     "t": "Images, icons and brand consistency",
+     "body": "Choose imagery that supports the message and has suitable resolution and usage rights. Icons should share a consistent visual style and remain understandable at their display size. Brand systems define repeatable choices such as logo use, colour, typography and imagery.\nAvoid stretching raster images. Keep source assets organized and use vector formats for artwork that needs to scale cleanly.",
+     "video": ""
+    },
+    {
+     "t": "Production, export and portfolio review",
+     "body": "Prepare files for their intended output. Print work may require bleed, correct colour settings and sufficient resolution; digital work needs optimized dimensions and suitable formats. Keep editable source files and export clearly named deliverables.\nReview spelling, alignment, contrast, image quality and licensing. Present the final work with a short explanation of the design problem and decisions.",
+     "video": ""
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Which design principle creates a clear difference between elements?",
+     "o": [
+      "Contrast",
+      "Repetition",
+      "Proximity",
+      "Symmetry"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What does a grid help a designer maintain?",
+     "o": [
+      "Consistent alignment",
+      "Random font changes",
+      "Audio volume",
+      "Database integrity"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What is visual hierarchy?",
+     "o": [
+      "An arrangement that guides attention by importance",
+      "A list of image filenames",
+      "A type of export format",
+      "A colour profile"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which typography choice usually improves body readability?",
+     "o": [
+      "Comfortable line length and line height",
+      "Extremely tight spacing",
+      "Many decorative fonts",
+      "Low contrast text"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What do hue, saturation and value describe?",
+     "o": [
+      "Aspects of colour",
+      "Image file permissions",
+      "Font licensing",
+      "Grid columns"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Why should a design not rely on colour alone?",
+     "o": [
+      "Some users may not perceive colour differences",
+      "Colour is unsupported in digital media",
+      "It makes files editable",
+      "It prevents printing"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What is a vector graphic useful for?",
+     "o": [
+      "Scaling artwork without pixelation",
+      "Storing database rows",
+      "Playing audio",
+      "Running scripts"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What should guide the choice of export format?",
+     "o": [
+      "The intended output and use",
+      "The longest extension",
+      "The designer's operating system only",
+      "The number of layers"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What is bleed used for in print design?",
+     "o": [
+      "Extra artwork beyond the trim edge",
+      "A web animation",
+      "A font weight",
+      "A social media hashtag"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What should a portfolio project explanation include?",
+     "o": [
+      "The design problem and key decisions",
+      "Only a file extension",
+      "Only a list of fonts",
+      "Private client passwords"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ],
+ "seedVersion": 3
+}
