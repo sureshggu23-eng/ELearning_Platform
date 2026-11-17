@@ -1,0 +1,3 @@
+const t=document.querySelector('.tg'),n=document.querySelector('.nav');t&&t.addEventListener('click',()=>n.classList.toggle('open'));
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.1});document.querySelectorAll('.rv').forEach(e=>io.observe(e));
+document.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-f]').forEach(x=>x.classList.remove('on'));b.classList.add('on');const f=b.dataset.f;document.querySelectorAll('[data-c]').forEach(c=>c.style.display=f=='all'||c.dataset.c==f?'':'none')});
